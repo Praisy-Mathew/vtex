@@ -18,8 +18,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         $botcheck = $_POST['form_botcheck'];
 
-        $toemail = 'youremail@example.com'; // <-- your email
-        $toname = 'Your Company';
+        $toemail = 'wearvetx@gmail.com'; // <-- your email
+        $toname = 'V TEX';
 
         if ($botcheck == '') {
             $mail->SetFrom($email, $name);
